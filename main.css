@@ -1,0 +1,26 @@
+table,
+th,
+td,
+th.stones {
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    padding: 5px;
+}
+
+table {
+    padding: 0;
+}
+
+th {
+    width: 80px;
+    ;
+}
+
+th.stones {
+    width: 150px;
+}
+
+td[colspan] {
+    text-align: center;
+}
